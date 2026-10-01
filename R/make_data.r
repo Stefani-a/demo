@@ -1,2 +1,2 @@
 mtcars |> 
-  dplyr::write_csv("input/cars.csv")
+  readr::write_csv("input/cars.csv")
